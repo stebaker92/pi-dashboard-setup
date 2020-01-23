@@ -1,0 +1,8 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+#@xscreensaver -no-splash # prevent screensaver for dashboard
+point-rpi
+
+# load chromium after boot and point to the webserver in full screen mode
+# The 1st page load may require some configuration
+@chromium-browser --kiosk https://stebaker92.gitlab.io/pi-dashboard/ 
