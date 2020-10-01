@@ -30,3 +30,8 @@ And then add the following to auto-start Chrome with a web-page of your chosing:
 # The 1st time you load this page may require some configuration such as browser permissions 
 chromium-browser --start-fullscreen --disable-restore-session-state --app=http://stebaker92.gitlab.io/pi-dashboard/?latlong=53.44682,-2.63171
 ```
+
+
+## Setup-LCD.sh (optional)
+This step is only required for my setup - it's basically drivers for the LCD screen I bought.
+
